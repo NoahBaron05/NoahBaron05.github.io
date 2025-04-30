@@ -1,0 +1,339 @@
+{
+    "Wave1" : {
+        "EnemyCount" : 7,
+        "Rows" : 2,
+        "Enemies" : [
+            {
+                "type" : "enemyRed1.png",
+                "x" : 500,
+                "y" : 275,
+                "style" : "straight"
+            },
+            {
+                "type" : "enemyGreen5.png",
+                "x" : 300,
+                "y" : 275,
+                "style" : "curved"
+            },
+            {
+                "type" : "enemyGreen5.png",
+                "x" : 700,
+                "y" : 275,
+                "style" : "curved"
+            },
+            {
+                "type" : "enemyRed1.png",
+                "x" : 200,
+                "y" : 200,
+                "style" : "straight"
+            },
+            {
+                "type" : "enemyRed1.png",
+                "x" : 800,
+                "y" : 200,
+                "style" : "straight"
+            },
+            {
+                "type" : "enemyBlack4.png",
+                "x" : 400,
+                "y" : 200,
+                "style" : "sine"
+            },
+            {
+                "type" : "enemyBlack4.png",
+                "x" : 600,
+                "y" : 200,
+                "style" : "sine"
+            }
+        ]
+    },
+    "Wave2" : {
+        "EnemyCount" : 9,
+        "Rows" : 2,
+        "Enemies" : [
+            {
+                "type" : "enemyRed1.png",
+                "x" : 200,
+                "y" : 275,
+                "style" : "straight"
+            },
+            {
+                "type" : "enemyBlack4.png",
+                "x" : 300,
+                "y" : 275,
+                "style" : "sine"
+            },
+            {
+                "type" : "enemyRed1.png",
+                "x" : 400,
+                "y" : 275,
+                "style" : "straight"
+            },
+            {
+                "type" : "enemyBlack4.png",
+                "x" : 500,
+                "y" : 275,
+                "style" : "sine"
+            },
+            {
+                "type" : "enemyRed1.png",
+                "x" : 600,
+                "y" : 275,
+                "style" : "straight"
+            },
+            {
+                "type" : "enemyBlack4.png",
+                "x" : 700,
+                "y" : 275,
+                "style" : "sine"
+            },
+            {
+                "type" : "enemyRed1.png",
+                "x" : 800,
+                "y" : 275,
+                "style" : "straight"
+            },
+            {
+                "type" : "enemyGreen5.png",
+                "x" : 300,
+                "y" : 200,
+                "style" : "curved"
+            },
+            {
+                "type" : "enemyGreen5.png",
+                "x" : 700,
+                "y" : 200,
+                "style" : "curved"
+            }
+        ]
+    },
+    "Wave3" : {
+        "EnemyCount" : 14,
+        "Rows" : 3,
+        "Enemies" : [
+            {
+                "type" : "enemyGreen5.png",
+                "x" : 200,
+                "y" : 200,
+                "style" : "curved"
+            },
+            {
+                "type" : "enemyBlack4.png",
+                "x" : 300,
+                "y" : 200,
+                "style" : "sine"
+            },
+            {
+                "type" : "enemyGreen5.png",
+                "x" : 400,
+                "y" : 200,
+                "style" : "curved"
+            },
+            {
+                "type" : "enemyRed1.png",
+                "x" : 500,
+                "y" : 200,
+                "style" : "sine"
+            },
+            {
+                "type" : "enemyGreen5.png",
+                "x" : 600,
+                "y" : 200,
+                "style" : "curved"
+            },
+            {
+                "type" : "enemyBlack4.png",
+                "x" : 700,
+                "y" : 200,
+                "style" : "sine"
+            },
+            {
+                "type" : "enemyGreen5.png",
+                "x" : 800,
+                "y" : 200,
+                "style" : "curved"
+            },
+            {
+                "type" : "enemyRed1.png",
+                "x" : 300,
+                "y" : 275,
+                "style" : "straight"
+            },
+            {
+                "type" : "enemyRed1.png",
+                "x" : 500,
+                "y" : 275,
+                "style" : "straight"
+            },
+            {
+                "type" : "enemyRed1.png",
+                "x" : 700,
+                "y" : 275,
+                "style" : "straight"
+            },
+            {
+                "type" : "enemyRed1.png",
+                "x" : 200,
+                "y" : 350,
+                "style" : "straight"
+            },
+            {
+                "type" : "enemyBlack5.png",
+                "x" : 400,
+                "y" : 350,
+                "style" : "sine"
+            },
+            {
+                "type" : "enemyBlack5.png",
+                "x" : 600,
+                "y" : 375,
+                "style" : "sine"
+            },
+            {
+                "type" : "enemyRed1.png",
+                "x" : 800,
+                "y" : 350,
+                "style" : "straight"
+            }
+        ]
+    },
+    "Wave4" : {
+        "EnemyCount" : 6,
+        "Rows" : 2,
+        "Enemies" : [
+            {
+                "type" : "enemyRed1.png",
+                "x" : 200,
+                "y" : 275,
+                "style" : "straight"
+            },
+            {
+                "type" : "enemyBlack4.png",
+                "x" : 500,
+                "y" : 275,
+                "style" : "sine"
+            },
+            {
+                "type" : "enemyRed1.png",
+                "x" : 800,
+                "y" : 275,
+                "style" : "straight"
+            },
+            {
+                "type" : "enemyGreen5.png",
+                "x" : 350,
+                "y" : 200,
+                "style" : "curved"
+            },
+            {
+                "type" : "enemyGreen5.png",
+                "x" : 650,
+                "y" : 200,
+                "style" : "curved"
+            },
+            {
+                "type" : "enemyRed1.png",
+                "x" : 500,
+                "y" : 200,
+                "style" : "straight"
+            }
+        ]
+    },
+    "Wave5" : {
+        "EnemyCount" : 15,
+        "Rows" : 4,
+        "Enemies" : [
+            {
+                "type" : "enemyGreen5.png",
+                "x" : 500,
+                "y" : 200,
+                "style" : "curved"
+            },
+            {
+                "type" : "enemyBlack4.png",
+                "x" : 300,
+                "y" : 275,
+                "style" : "sine"
+            },
+            {
+                "type" : "enemyRed1.png",
+                "x" : 400,
+                "y" : 275,
+                "style" : "straight"
+            },
+            {
+                "type" : "enemyBlack4.png",
+                "x" : 500,
+                "y" : 275,
+                "style" : "sine"
+            },
+            {
+                "type" : "enemyRed1.png",
+                "x" : 600,
+                "y" : 275,
+                "style" : "straight"
+            },
+            {
+                "type" : "enemyBlack4.png",
+                "x" : 700,
+                "y" : 275,
+                "style" : "sine"
+            },
+            {
+                "type" : "enemyGreen5.png",
+                "x" : 350,
+                "y" : 350,
+                "style" : "curved"
+            },
+            {
+                "type" : "enemyRed1.png",
+                "x" : 450,
+                "y" : 350,
+                "style" : "straight"
+            },
+            {
+                "type" : "enemyGreen5.png",
+                "x" : 650,
+                "y" : 350,
+                "style" : "curved"
+            },
+            {
+                "type" : "enemyRed1.png",
+                "x" : 550,
+                "y" : 350,
+                "style" : "straight"
+            },
+            {
+                "type" : "enemyRed1.png",
+                "x" : 200,
+                "y" : 425,
+                "style" : "straight"
+            },
+            {
+                "type" : "enemyBlack4.png",
+                "x" : 300,
+                "y" : 425,
+                "style" : "sine"
+            },
+            {
+                "type" : "enemyGreen5.png",
+                "x" : 500,
+                "y" : 425,
+                "style" : "curved"
+            },
+            {
+                "type" : "enemyBlack4.png",
+                "x" : 700,
+                "y" : 425,
+                "style" : "sine"
+            },
+            {
+                "type" : "enemyRed1.png",
+                "x" : 800,
+                "y" : 425,
+                "style" : "straight"
+            }
+        ]
+    }
+
+}
