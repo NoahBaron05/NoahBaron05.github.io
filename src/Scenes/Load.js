@@ -9,6 +9,7 @@ class Load extends Phaser.Scene {
         this.load.atlas("platformer_characters", "tilemap-characters-packed.png", "tilemap-characters-packed.json");
 
         this.load.image("grapple", 'tile_0007.png');
+        this.load.image("bullet", 'bullet.png');
 
         this.load.image("tilemap_tiles", "tilemap.png");
         this.load.image("tilemap_tiles_extra", "tilemap_packed_extras.png");
@@ -20,6 +21,8 @@ class Load extends Phaser.Scene {
         this.load.audio('grappleImpact', 'Audio/impactMetal_heavy_001.ogg');
         this.load.audio('coinVFX', 'Audio/coinVFX.wav');
         this.load.audio('death', 'Audio/death.wav');
+        this.load.audio('shot', 'Audio/shot.wav');
+        this.load.audio('enemyHurt', 'Audio/enemyHurt.wav');
 
         this.load.audio('run1', 'Audio/footstep_concrete_001.ogg');
         this.load.audio('run2', 'Audio/footstep_concrete_002.ogg');
@@ -35,6 +38,8 @@ class Load extends Phaser.Scene {
 
         this.load.bitmapFont('pixelfont', 'minogram_6x10.png', 'minogram_6x10.xml');
 
+        this.load.image('enemyGround', 'tile_0021.png');
+        this.load.image('enemyAir', 'tile_0024.png');
     }
 
     create(){
@@ -66,6 +71,32 @@ class Load extends Phaser.Scene {
             frames: [
                 { frame: "tile_0005.png" }
             ],
+        });
+
+        this.anims.create({
+            key: 'enemyWalk',
+            frames: this.anims.generateFrameNames('platformer_characters', {
+                prefix: "tile_",
+                start: 21,
+                end: 22,
+                suffix: ".png",
+                zeroPad: 4
+            }),
+            frameRate: 5,
+            repeat: -1
+        });
+
+        this.anims.create({
+            key: 'enemyFly',
+            frames: this.anims.generateFrameNames('platformer_characters', {
+                prefix: "tile_",
+                start: 24,
+                end: 26,
+                suffix: ".png",
+                zeroPad: 4
+            }),
+            frameRate: 8,
+            repeat: -1
         });
         
 

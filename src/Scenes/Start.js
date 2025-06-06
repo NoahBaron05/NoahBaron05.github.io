@@ -15,7 +15,7 @@ class Start extends Phaser.Scene {
 
     update(){        
         if (this.sKey.isDown){
-            this.scene.start('platformerScene');
+            this.scene.start('platformerScene', {spawnName: "spawn1", coinCount : 0, timeCount : 0});
         }
         if (this.cKey.isDown){
             this.scene.start('controlsScene');
