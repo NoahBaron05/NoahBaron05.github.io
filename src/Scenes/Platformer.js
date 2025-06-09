@@ -320,6 +320,9 @@ class Platformer extends Phaser.Scene {
         });
 
         this.timeBg = this.add.graphics().fillStyle(0x000000, 0.5).fillRoundedRect(-10, 20, 350, 56, 10).setDepth(99).setScrollFactor(0);
+
+        //Reset Button
+        this.rKey = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.R);
     }
 
     update() {
@@ -334,6 +337,10 @@ class Platformer extends Phaser.Scene {
         this.enemyMovementGround();
 
         this.flyingEnemyMovement();
+
+        if (this.rKey.isDown){
+            this.scene.start('platformerScene', {spawnName: this.spawnName, coinCount : this.coinCounter, timeCount : this.levelTime});
+        }
     }
 
     //Movement -----------------------------------------------------------------------------------------------------------------------------------

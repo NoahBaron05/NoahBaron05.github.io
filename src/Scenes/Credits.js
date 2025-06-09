@@ -1,14 +1,12 @@
-class Controls extends Phaser.Scene {
+class Credits extends Phaser.Scene {
     constructor() {
-        super("controlsScene");
+        super("creditsScene");
     }
     
     create(){
-        this.add.bitmapText(100, 200, 'pixelfont', 'Movement: WASD', 50);  
-        this.add.bitmapText(100, 300, 'pixelfont', 'Jump: SPACE', 50);  
-        this.add.bitmapText(100, 400, 'pixelfont', 'Grapple Hook: Right click to shoot', 50); 
-        this.add.bitmapText(100, 500, 'pixelfont', 'Gun: Left click to shoot', 50); 
-        this.add.bitmapText(100, 600, 'pixelfont', 'Press R to restart level', 50); 
+        this.add.bitmapText(100, 200, 'pixelfont', 'Created by Noah Baron', 50);  
+        this.add.bitmapText(100, 300, 'pixelfont', 'All audio and art assets by Kenney Assets', 50);  
+
         this.add.bitmapText(100, 700, 'pixelfont', 'Press S to start', 50);  
         this.add.bitmapText(100, 800, 'pixelfont', 'Press T for title screen', 50); 
 

@@ -19,7 +19,7 @@ let config = {
     fps: {forceSetTimeOut: true, target: 60},
     width: 1440,
     height: 900,
-    scene: [Load, Start, Controls, Platformer, Ending]
+    scene: [Load, Start, Controls, Credits, Platformer, Ending]
 }
 
 var cursors;
